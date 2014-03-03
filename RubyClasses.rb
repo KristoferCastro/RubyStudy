@@ -24,7 +24,6 @@ module RubyClassStudy
       @color = color # create instance variable and assign
     end
     
-    
     public 
     def getColorTestPublic()
       @color
