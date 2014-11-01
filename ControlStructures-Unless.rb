@@ -33,5 +33,8 @@ end
 check_ready
 check_ready2
 
+# another cool thing you can do is use this in an assignment
+answeredNo = false
+response = :yes unless answeredNo
 
-
+puts response
