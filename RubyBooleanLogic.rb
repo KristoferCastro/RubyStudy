@@ -11,4 +11,7 @@ puts "0 is false" if 0 == false
 
 # what do you expect? It should be that false is false and nil is false.
 # however, if nil == false is not equal. Why?! nil is not strictly equal to false
-# nil is a NilClass and false is a boolean data type.
+# nil is a NilClass and false is a boolean data type. nil == false will run the == 
+# method of nill and will evaluate to false they are not equal
+
+puts "nil is actually false" if !nil # see how it is false used in a boolean context
